@@ -1,0 +1,109 @@
+/*media queries */
+@media (max-width: 500px){
+    .bg-purple{
+        height: 600px;
+    }
+    .welcome-text{
+        font-size: 30px;
+    }
+    .heading{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .about-text{
+        margin-top: 0px;
+    }
+    .card-style{
+        width:380px;
+    }
+    .direction-btns{
+       margin:0;
+    }
+}
+
+@media (max-width:892px)
+{
+    .skills-resp{
+        padding-top:70px;
+    }
+
+    .skillsSecRow{
+        padding-top:70px;
+    }
+
+    .skillsSecRow{
+        padding-top:70px;
+    }
+
+    .avatar-spacing{
+        margin-right:auto;
+        margin-left:auto;
+        width:75%;
+        display:block;
+    }
+}
+
+@media (max-width: 990px){
+    .avatar-spacing{
+        width: 75%;
+    }
+    .about-text{
+        margin-top: 0px;
+    }
+    .nav-bg-scrolling{
+        height:90px;
+    }
+}
+
+/*ipad*/
+@media (max-width: 768px){
+    .bg-purple{
+        height: 1024px;
+    }  
+    .heading{
+        padding-top: 350px;
+    }
+    .bg-skills{
+        height:auto;
+    }
+}
+
+/*phone*/
+@media (max-width: 360px){
+    .bg-purple{
+        height: 640px;
+    }
+    .welcome-text{
+        font-size: 20px;
+    }
+    .heading{
+        padding-top: 200px;
+    }
+    .about{
+        font-size:12px;
+    }
+    .card-style{
+        width:330px;
+    }
+}
+
+@media (max-width: 375px){
+    .bg-purple{
+        height: 812px;
+    }
+    .welcome-text{
+        font-size: 20px;
+    }
+    .heading{
+        padding-top: 250px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .about{
+        font-size:16px;
+    }
+    .card-style{
+        width:340px;
+    }
+}
+

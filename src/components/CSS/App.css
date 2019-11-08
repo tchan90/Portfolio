@@ -1,0 +1,406 @@
+/* nav */
+.nav-bg{
+    background-color: transparent;
+    z-index:2;
+    height: 40px;
+    padding-top: 20px;
+    width: 100%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.nav-bg-scrolling{
+    background-color: rgb(39, 39, 39);
+    z-index:2;
+    height: 40px;
+    padding-top: 20px;
+    width: 100%; 
+    padding-bottom: 30px;
+    padding-top: 30px;
+    animation: fadeIn 1s;
+}
+
+.show{
+    background-color:black;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+@keyframes fadeIn{
+    from {
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.nav-style{
+    font-size: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.nav-link{
+    color:white !important;
+    font-size:18px;
+}
+
+.nav-link:hover{
+    color:grey !important;
+    cursor: pointer;
+}
+
+/* home */
+.bg-purple{
+    width: 100%;
+    height: 100vh;
+animation: fadeInDown 1s;
+background:url(../../imgs/moutain-bg.png);
+background-repeat:no-repeat;
+background-size:cover;
+background-position:50% 50%;
+margin: 0 auto;
+background-attachment:fixed;
+background-position:center;
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+@keyframes fadeInDown{
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+      }
+    
+      to {
+        opacity: 1;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+      }
+    }
+
+.welcome-title{
+    color: white;
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-shadow: 1px 1px 1px black;
+    font-size: 40px;
+    top: 30%;
+    margin:0;
+    position:absolute;
+    animation-fill-mode: forwards;
+    text-align: center;
+
+
+}
+
+/*about */
+.heading-dark{
+    color: white;
+    padding-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    text-align:center;
+    
+}
+
+.about{
+    background-color: #23155B;
+    color: white;
+    height: auto;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    min-width: 100%;
+    position: relative;
+    padding-top:58px;
+    padding-bottom:50px;
+}
+
+.about:before{
+    content:'';
+    width:100%;
+    height:20%;
+    background:url('../../imgs/foreground-about.png');
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+    background-repeat:cover;
+    background-size:cover;
+    position:absolute;
+    top:-20%;
+}
+
+.about-text{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 200px;
+}
+
+/*skills*/
+.bg-skills{
+    background: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding-top:40px;
+    padding-bottom:55px;
+}
+
+.skills-wrapper{
+    padding-right:70px;
+    padding-left:70px;
+}
+
+.skillsSecRow{
+    padding-top:120px;
+}
+
+.heading-light{
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    text-align:center;
+}
+
+.skills-head{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size:30px;
+}
+
+.list-style{
+    list-style:none;
+    padding:12px 0 0 0;
+    margin:0;
+    font-size:14px;
+}
+
+.list-style li{
+    display: inline-block;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.skills-img{
+    width:90%;
+    height:auto;
+    overflow:hidden;
+}
+
+/*projects*/
+.projects-bg{
+    width: 100%;
+    background-color: #9F87FF;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding-top:65px;
+    padding-bottom:80px;
+}
+
+.card-style{
+    width: 30rem;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.project-buttons{
+    background-color: grey;
+    border: grey;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.project-buttons:hover{
+    background-color:#23155B;
+    color:white;
+}
+
+.direction-btn-align{
+    text-align: center;
+    margin-top:50px;
+}
+
+.direction-btns{
+    background-color:rgb(23, 0, 107);
+    border: white;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+
+.direction-btns:disabled{
+    background-color:rgb(23, 0, 107);
+    border:rgb(23, 0, 107);
+
+}
+
+.direction-btns:hover{
+    background-color:rgb(92, 92, 92);
+    border: white;
+    color:black;
+}
+
+
+.cards-slider-wrapper{
+    display:flex;
+    position:absolute;
+    transition: transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.cards-slider-wrapper>section{
+    flex:1;
+    min-width:30rem;
+    opacity:0.5;
+    transform: scale(0.7);
+    transition: opacity 300ms linear, transform 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.cards-slider.active-slide-0 #card-0 {
+    opacity:1;
+    transform: scale(1)
+}
+
+.cards-slider.active-slide-1 #card-1 {
+    opacity:1;
+    transform: scale(1)
+}
+
+.cards-slider.active-slide-2 #card-2 {
+    opacity:1;
+    transform: scale(1)
+}
+
+.cards-slider.active-slide-3 #card-3 {
+    opacity:1;
+    transform: scale(1)
+}
+
+.cards-slider.active-slide-4 #card-4 {
+    opacity:1;
+    transform: scale(1)
+}
+
+.cards-slider{
+    position: relative;
+    max-width:30rem;
+    margin: 0 auto;
+    height:28rem;
+}
+
+/* contact */
+.titles-white{
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+}
+
+.contact-bg{
+    width: 100%;
+    height: auto;
+    background-color: #3F217E;
+}
+
+.submitBtn{
+    background-image: linear-gradient(to right, #17006b 0%, #7958ee 51%, #17006b 100%);
+    color:white;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:10px;
+    padding-bottom:10px;
+    border-radius: 20px;
+    border:none;
+    margin-top:18px;
+    cursor: pointer;
+    background-size: 200% auto;
+}
+
+.submitBtn:hover{
+    background-position: right center;
+    cursor: pointer;
+    background-position: 100% 0;
+    moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.contactForm-container{
+    background-color: white;
+}
+
+.contact-header{
+    color:white;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.copyright-txt{
+    color: white;
+    font-size: 12px;
+    font-family: 'Nunito Sans', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.contact-form-hide{
+    display:none;
+}
+
+.fadeInLeft{
+    animation: fadeInLeft 1s 
+}
+
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translate3d(-100%, 0, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+.logo:hover{
+    animation: logohover 1s;
+}
+
+.success-wrapper{
+    width:550px;
+    height:550px;
+    background-color:white;
+}
+
+@keyframes logohover {
+    from {
+        transform: scale3d(1, 1, 1);
+      }
+    
+      50% {
+        transform: scale3d(1.2, 1.2, 1.2);
+      }
+    
+      to {
+        transform: scale3d(1, 1, 1);
+      }
+    }
+
+/*error*/
+.error-bg{
+    width:100%;
+    height:100%;
+    background-color:rgb(133, 109, 82);
+}
