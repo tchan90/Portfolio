@@ -4,9 +4,9 @@ const projectsData = {
         "index":0,
         "name":"Where's dat Foodtruck at?",
         "about":"Search directory for foodtrucks around Melbourne (mock project).",
-        "website":"#",
-        "github":"#",
-        "image":"https://images.unsplash.com/photo-1481487196290-c152efe083f5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
+        "website":"https://wheresdatfoodtruckat.herokuapp.com",
+        "github":"https://github.com/tchan90/Foodtruck-Finder",
+        "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/v1573549189/Annotation_2019-11-12_195904_hrbgfr.png",
         "_id":"21fad298-281a-4594-bfdd-2c1d0338beb5"
     },
     {
