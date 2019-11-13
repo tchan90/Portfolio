@@ -1,16 +1,8 @@
 const projectsData = {
 "projects":[
+
     {
         "index":0,
-        "name":"Where's dat Foodtruck at?",
-        "about":"Search directory for foodtrucks around Melbourne (mock project).",
-        "website":"https://wheresdatfoodtruckat.herokuapp.com",
-        "github":"https://github.com/tchan90/Foodtruck-Finder",
-        "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/v1573549189/Annotation_2019-11-12_195904_hrbgfr.png",
-        "_id":"21fad298-281a-4594-bfdd-2c1d0338beb5"
-    },
-    {
-        "index":1,
         "name":"My Pet Infosheet",
         "about":"Database for users to add, edit, retrieve, and delete information about their pets (mock project).",
         "website":"https://my-pet-info-sheet.firebaseapp.com/",
@@ -19,7 +11,7 @@ const projectsData = {
         "_id":"3fdc8457-eac8-4497-b5c7-393608df79af"
     },
     {
-        "index":2,
+        "index":1,
         "name":"Espresso Etc",
         "about":"Client project for Melbourne-based cafe 'Espresso Etc'.",
         "website":"#",
@@ -28,7 +20,7 @@ const projectsData = {
         "_id":"7a59a5cc-abf3-4f45-a6da-a14b7a5c8294"
     },
     {
-        "index":3,
+        "index":2,
         "name":"Khan Santuary",
         "about":"Tiger Santuary mock website. Utilizing CSS gridboxes.",
         "website":"https://modest-einstein-ee339e.netlify.com",
