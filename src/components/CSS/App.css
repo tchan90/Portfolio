@@ -58,7 +58,7 @@
     width: 100%;
     height: 100vh;
 animation: fadeInDown 1s;
-background:url(../../imgs/moutain-bg.png);
+background:url('https://res.cloudinary.com/ddzbntqlz/image/upload/v1573691318/moutain-bg_f7sywp.png');
 background-repeat:no-repeat;
 background-size:cover;
 background-position:50% 50%;

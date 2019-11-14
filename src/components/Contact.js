@@ -41,8 +41,8 @@ class Contact extends Component {
                         <ContactForm formDisplay= {this.state.formDisplay}/>
                          
                     <Row>
-                        <Col><a href="#"><IoLogoLinkedin color="white" size={57} className="ml-auto d-block mt-5 logo"/></a></Col>
-                        <Col><a href="#"><DiGithubAlt  color="white" size={57} className="mr-auto d-block mt-5 logo"/></a></Col>
+                        <Col><a href="https://www.linkedin.com/in/tammy-chan-46b0b68b/" target="_blank"><IoLogoLinkedin color="white" size={57} className="ml-auto d-block mt-5 logo" target="_blank"/></a></Col>
+                        <Col><a href="https://github.com/tchan90"><DiGithubAlt  color="white" size={57} className="mr-auto d-block mt-5 logo"/></a></Col>
                     </Row>
                 </Container>
                 <Container>

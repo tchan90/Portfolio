@@ -24,7 +24,7 @@ import './avatar.css'
                         </Col>
                         <Col sm={12} lg={6} >
                         <ScrollAnimation animateIn="fadeIn">
-                            <p className="about-text" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempor sit amet erat a eleifend. Aenean varius condimentum ultrices. Morbi ornare sollicitudin tristique. Sed semper neque a fermentum eleifend. Morbi tempor purus neque, quis rutrum nisi rhoncus et. In rhoncus mi at nisl malesuada, a pretium nisi vulputate. Vestibulum sit amet magna imperdiet, auctor mauris eget, viverra orci. Cras non metus a lacus hendrerit congue at ac lacus.</p>
+                            <p className="about-text" >Hi there! My name is Tammy and I'm a web developer fresh out from coding  school. My interests lie in design and front-end development, and my ambition is to create websites driven strongly by effective UX/UI experiences.</p>
                             </ScrollAnimation>
                         </Col>
                        

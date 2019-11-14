@@ -7,7 +7,7 @@ const projectsData = {
         "about":"Database for users to add, edit, retrieve, and delete information about their pets (mock project).",
         "website":"https://my-pet-info-sheet.firebaseapp.com/",
         "github":"https://github.com/tchan90/My-Pet-Infosheet",
-        "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/v1573190115/petinfosheet_screenshot_vgrec1.png",
+        "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/c_scale,w_478/v1573190115/petinfosheet_screenshot_vgrec1.png",
         "_id":"3fdc8457-eac8-4497-b5c7-393608df79af"
     },
     {
@@ -25,7 +25,7 @@ const projectsData = {
         "about":"Tiger Santuary mock website. Utilizing CSS gridboxes.",
         "website":"https://modest-einstein-ee339e.netlify.com",
         "github":"https://github.com/tchan90/Tiger-Sanctuary",
-        "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/v1573190850/khansanctuary_gawxeq.png",
+        "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/c_scale,w_478/v1573190850/khansanctuary_gawxeq.png",
         "_id":"e68fc566-6830-4448-86ea-a99ceb03659a"
     }
 ]

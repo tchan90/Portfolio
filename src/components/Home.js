@@ -10,7 +10,7 @@ class Home extends Component {
             <div className="bg-purple">
                 <Container fluid className="welcome-title"> 
                 <h1>Hi my name is <strong>Tammy Chan,</strong></h1>
-                <h1>and I'm a Junior Web Developer</h1>
+                <h1>and I'm a Web Developer</h1>
                 </Container>
                 </div> 
                 </Element>
