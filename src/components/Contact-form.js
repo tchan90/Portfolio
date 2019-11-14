@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Form, Container, Row, Col, InputGroup} from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser, faAt, faPenAlt, faExclamationTriangle, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faAt, faPenAlt, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
 import classnames from 'classnames'
 
 class ContactForm extends Component {
@@ -62,7 +62,7 @@ class ContactForm extends Component {
     }
     
   render() {
-    const {name, email, message, errors, errorServer, submissionSucc} = this.state;
+    const {name, email, message, errors, submissionSucc} = this.state;
     return (
       <div className={(this.props.formDisplay ? '' : 'contact-form-hide')} >
           <Container className="contactForm-container py-4 my-4 fadeInLeft fadeOutRight border rounded">
@@ -105,10 +105,7 @@ class ContactForm extends Component {
         </Form>
                   </Col>
               </Row>
-              {errorServer==true? <div className="alert alert-danger mt-3" role="alert" ><span><FontAwesomeIcon icon={faExclamationTriangle} color="darkred"/></span>
-   <p> Oh dear something went wrong with the server, please see my resume instead and use the email provided. </p></div> : '' }
-
-          {submissionSucc==true? <div className="alert alert-success mt-3" role="alert" ><span><FontAwesomeIcon icon={faThumbsUp} color="green"/></span>
+          {submissionSucc===true? <div className="alert alert-success mt-3" role="alert" ><span><FontAwesomeIcon icon={faThumbsUp} color="green"/></span>
    <p> Submission successful. I will get back to you very soon!</p></div> : ''}
           </Container>
         

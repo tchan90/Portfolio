@@ -24,15 +24,15 @@ class Navigation extends Component {
                       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                       <Navbar.Collapse id="responsive-navbar-nav" className=" pl-3 py-3">
                         <Nav className="mr-auto">
-                          <Link to="home" className="nav-link" className="nav-link" spy={true} smooth={true} duration={500}>Home</Link>
-                         <Link to="about" className="nav-link" className="nav-link" spy={true} smooth={true} duration={500}>About</Link>
-                          <Link to="skills" className="nav-link" className="nav-link" spy={true} smooth={true} duration={500}>Skills</Link>
-                         <Link to="projects" className="nav-link" className="nav-link" spy={true} smooth={true} duration={500}>Projects</Link>
-                         <Link to="contact" className="nav-link" className="nav-link" spy={true} smooth={true} duration={500}> Contact</Link>
+                          <Link to="home" className="nav-link" spy={true} smooth={true} duration={500}>Home</Link>
+                         <Link to="about"  className="nav-link" spy={true} smooth={true} duration={500}>About</Link>
+                          <Link to="skills"  className="nav-link" spy={true} smooth={true} duration={500}>Skills</Link>
+                         <Link to="projects"  className="nav-link" spy={true} smooth={true} duration={500}>Projects</Link>
+                         <Link to="contact"  className="nav-link" spy={true} smooth={true} duration={500}> Contact</Link>
 
                         </Nav>
                         <Nav>
-                          <Nav.Link href="https://res.cloudinary.com/ddzbntqlz/image/upload/v1573690576/Resume_php6bi.pdf" target="_blank">Resume</Nav.Link>
+                          <Nav.Link href="https://res.cloudinary.com/ddzbntqlz/image/upload/v1573690576/Resume_php6bi.pdf" target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
                         </Nav>
                       </Navbar.Collapse>
                     </Navbar>  
