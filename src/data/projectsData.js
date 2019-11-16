@@ -27,7 +27,15 @@ const projectsData = {
         "github":"https://github.com/tchan90/Tiger-Sanctuary",
         "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/c_scale,w_478/v1573190850/khansanctuary_gawxeq.png",
         "_id":"e68fc566-6830-4448-86ea-a99ceb03659a"
-    }
+    },
+    {
+        "index":3,
+        "name":"Where's dat Foodtruck at?",
+        "about":"App that searches for Foodtrucks around Melbourne (mock project).",
+        "github":"https://github.com/tchan90/wheresdatFoodtruckat",
+        "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/c_scale,w_478/v1573549189/Annotation_2019-11-12_195904_hrbgfr.png",
+        "_id":"e68fc566-6830-4448-86ea-a99ceb03659a"
+    },
 ]
 }
 export default projectsData;
