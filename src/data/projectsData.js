@@ -13,10 +13,10 @@ const projectsData = {
     {
         "index":1,
         "name":"Espresso Etc",
-        "about":"Client project for Melbourne-based cafe 'Espresso Etc'.",
-        "website":"#",
-        "github":null,
-        "image":"https://images.unsplash.com/photo-1481487196290-c152efe083f5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
+        "about":"Client project for Melbourne-based cafe 'Espresso Etc'. This is not the main site, but a different version that has been slightly altered according to the project requirements.",
+        "website":"https://nifty-cray-249ba3.netlify.com",
+        "github":"https://github.com/tchan90/EspressoEtc_adv",
+        "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/c_scale,w_478/v1573901744/Annotation_2019-11-16_215518_z53cd6.png",
         "_id":"7a59a5cc-abf3-4f45-a6da-a14b7a5c8294"
     },
     {
