@@ -13,8 +13,7 @@ import {Card, Button} from 'react-bootstrap';
     <Card.Text>
       {about}
     </Card.Text>
-    { website==null ? '' : <a href={website}  target="_blank" rel="noopener noreferrer"><Button  className="project-buttons">Website</Button></a>
-    }
+    { website==null ? '' : <a href={website}  target="_blank" rel="noopener noreferrer"><Button  className="mr-2 project-buttons">Website</Button></a>}
     { github==null ? '' : <a href={github}  target="_blank" rel="noopener noreferrer"><Button  className="project-buttons">Github</Button></a>
     }
   </Card.Body>
