@@ -15,7 +15,7 @@ const projectsData = {
         "name":"Espresso Etc",
         "about":"Client project for Melbourne-based cafe 'Espresso Etc'. This is not the main site, but a different version that has been slightly altered according to the project requirements.",
         "website":"https://nifty-cray-249ba3.netlify.com",
-        "github":"https://github.com/tchan90/EspressoEtc_adv",
+        "github":"https://github.com/tchan90/Espresso_Etc_v2",
         "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/c_scale,w_478/v1573901744/Annotation_2019-11-16_215518_z53cd6.png",
         "_id":"7a59a5cc-abf3-4f45-a6da-a14b7a5c8294"
     },
