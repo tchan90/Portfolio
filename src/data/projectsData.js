@@ -31,7 +31,7 @@ const projectsData = {
     {
         "index":3,
         "name":"Where's dat Foodtruck at?",
-        "about":"App that searches for Foodtrucks around Melbourne (mock project). See README in github for more information. Deployed with Netlify.",
+        "about":"App that displays Foodtrucks around Melbourne (mock project). Deployed with Netlify.",
         "website":"https://wheresdatfoodtruckat.herokuapp.com",
         "github":"https://github.com/tchan90/wheresdatFoodtruckat",
         "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/c_scale,w_478/v1573549189/Annotation_2019-11-12_195904_hrbgfr.png",
