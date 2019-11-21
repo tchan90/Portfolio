@@ -4,7 +4,7 @@ const projectsData = {
     {
         "index":0,
         "name":"My Pet Infosheet",
-        "about":"Database for users to add, edit, retrieve, and delete information about their pets (mock project).",
+        "about":"Database for users to add, edit, retrieve, and delete information about their pets (mock project). Deployed with Firebase.",
         "website":"https://my-pet-info-sheet.firebaseapp.com/",
         "github":"https://github.com/tchan90/My-Pet-Infosheet",
         "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/c_scale,w_478/v1573190115/petinfosheet_screenshot_vgrec1.png",
@@ -13,7 +13,7 @@ const projectsData = {
     {
         "index":1,
         "name":"Espresso Etc",
-        "about":"Client project for Melbourne-based cafe 'Espresso Etc'. This is not the main site, but a different version that has been slightly altered according to the project requirements.",
+        "about":"Client project for Melbourne-based cafe 'Espresso Etc'. This is not the main site, but a different version that has been slightly altered according to the project requirements. Deployed with Netlify.",
         "website":"https://nifty-cray-249ba3.netlify.com",
         "github":"https://github.com/tchan90/Espresso_Etc_v2",
         "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/c_scale,w_478/v1573901744/Annotation_2019-11-16_215518_z53cd6.png",
@@ -22,7 +22,7 @@ const projectsData = {
     {
         "index":2,
         "name":"Khan Santuary",
-        "about":"Tiger Santuary mock website. Utilizing CSS gridboxes.",
+        "about":"Tiger Santuary mock website. Utilizing CSS gridboxes. Deployed with Netlify.",
         "website":"https://modest-einstein-ee339e.netlify.com",
         "github":"https://github.com/tchan90/Tiger-Sanctuary",
         "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/c_scale,w_478/v1573190850/khansanctuary_gawxeq.png",
@@ -31,7 +31,7 @@ const projectsData = {
     {
         "index":3,
         "name":"Where's dat Foodtruck at?",
-        "about":"App that searches for Foodtrucks around Melbourne (mock project). See README in github for more information.",
+        "about":"App that searches for Foodtrucks around Melbourne (mock project). See README in github for more information. Deployed with Netlify.",
         "website":"https://wheresdatfoodtruckat.herokuapp.com",
         "github":"https://github.com/tchan90/wheresdatFoodtruckat",
         "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/c_scale,w_478/v1573549189/Annotation_2019-11-12_195904_hrbgfr.png",
