@@ -32,7 +32,7 @@ class Navigation extends Component {
 
                         </Nav>
                         <Nav>
-                          <Nav.Link href="https://res.cloudinary.com/ddzbntqlz/image/upload/v1573690576/Resume_php6bi.pdf" target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
+                          <Nav.Link href="https://res.cloudinary.com/ddzbntqlz/image/upload/v1580103300/Resume_-_Tammy_Chan_yvvcwk.pdf" target="_blank" rel="noopener noreferrer">Resume</Nav.Link>
                         </Nav>
                       </Navbar.Collapse>
                     </Navbar>  
