@@ -5,7 +5,7 @@ const projectsData = {
         "index":0,
         "name":"My Pet Infosheet",
         "about":"Database for user to add, edit, retrieve, and delete information about their pets (mock project). Using Firebase for database, deployed with Netlify.",
-        "website":"https://serene-boyd-7ee849.netlify.com/pets",
+        "website":"https://serene-boyd-7ee849.netlify.com",
         "github":"https://github.com/tchan90/My-Pet-Infosheet",
         "image":"https://res.cloudinary.com/ddzbntqlz/image/upload/c_scale,w_478/v1573190115/petinfosheet_screenshot_vgrec1.png",
         "_id":"3fdc8457-eac8-4497-b5c7-393608df79af"
